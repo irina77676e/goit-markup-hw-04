@@ -367,9 +367,10 @@ padding: 0px 0px;
   text-decoration: none;
 }
 .social-link-footer{
- display: flex;
- align-items: center;
- justify-content: center;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
  width: 44px;
  height: 44px;
  color: #ffffff;
@@ -382,7 +383,9 @@ padding: 0px 0px;
   background-color: #2196F3;
 }
 .container-footer{
+  padding-left: 70px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
