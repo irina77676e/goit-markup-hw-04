@@ -325,6 +325,12 @@ padding: 0px 0px;
   fill: currentColor;
 }
 /* FOOTER */
+.footer-main{
+  display: flex;
+}
+.footer-first{
+margin-right: 70px;
+}
 .footer-block {
   background-color: #2f303a;
   padding-top: 60px;
@@ -382,12 +388,16 @@ padding: 0px 0px;
   color: #ffffff;
   background-color: #2196F3;
 }
-.container-footer{
-  padding-left: 70px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.footer-title{
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: #FFFFFF;
 }
 /* PORTFOLIO */
 .portfolio{
